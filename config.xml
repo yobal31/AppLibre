@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+<name>Mi IMC</name>
+<description>
+Una App para calcular el indice de masa corporal.
+</description>
+<author href="https://example.com" email="yonicristhbl@hotmail.com">
+Yonathan Barrantes
+</author>
+<preference name = " phonegap-version " value = " 3.6.0" />
+</widget>

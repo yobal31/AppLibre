@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	background: #4472C3;
+}
+#pg_Start,#pg_IMC {
+	vertical-align:middle;
+	background: #4472C3;
+}
+#page-1, #page-2 {
+	margin: 0 auto;
+	text-align:center;
+	vertical-align:middle;
+	background: #4472C3;
+}
+h2, h3, span, label, p {
+	color:#FFF;
+	text-shadow:none !important;
+}
+h2,h3 {
+	font-family:"Roboto","Segoe UI", "DejaVu Sans", "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+#circle {
+	display:table;
+	width: 130px;
+	height: 130px;
+	margin:0 auto;
+	padding:0;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border:solid 8px #fff;
+}
+#circle span {
+	display:table-cell;
+	font-family:"Roboto","Segoe UI", "DejaVu Sans", "Trebuchet MS", Arial, Verdana, sans-serif;
+	font-size:40px;
+	vertical-align:middle;
+}
+.color-green, .color-green #page-2 {
+	background-color: #3AA843 !important;
+}
+.color-orange, .color-orange #page-2 {
+	background-color: #E38003 !important;
+}
+.color-yellow, .color-yellow #page-2 {
+	background-color: #E6EC09 !important;
+}
+.color-red, .color-red #page-2 {
+	background-color: #DB2C2F !important;
+}
+.color-blackberry, .color-blackberry #page-2 {
+	background-color: #6D148F !important;
+}

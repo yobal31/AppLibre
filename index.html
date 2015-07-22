@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora de I.M.C.</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile-1.4.5.min.css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="jquery-mobile/jquery.numeric.min.js"></script>
+<script src="js/imc.js"></script>
+</head> 
+<body>
+<div data-role="page" id="pg_Start">
+  <div id="page-1" data-role="content"><br>
+  	<h3>&Iacute;NDICE DE MASA CORPORAL</h3><br>
+  	
+    <div data-role="fieldcontain">
+      <label for="number">PESO (Kilogramos):</label>
+      <input type="number" name="number_peso" id="number_peso" value="" min="20" max="300"  />
+    </div> 
+    <div data-role="fieldcontain">
+      <label for="number">ALTURA (Cent&iacute;metros):</label>
+      <input type="number" name="number_alt" id="number_alt" value="" min="40" max="225"  />
+    </div>
+    
+    <br><br>
+    <button id="bt_start" class="ui-btn ui-btn-a ui-mini ui-btn-inline  ui-icon-carat-r">Calcular</button>
+    
+ 
+  </div>
+</div>
+
+<div data-role="page" id="pg_IMC">
+  <div id="page-2" data-role="content">
+  	<h2>IMC</h2><br>  	
+    <div id="circle">
+    	<span id="valimc"></span>
+    </div>
+    <h2 id="tpeso"></h2>
+    <p id="desc"></p>
+    <button id="bt_new" class="ui-btn ui-btn-a ui-mini ui-btn-inline  ui-icon-carat-r">Nuevo calculo</button>
+  </div>
+</div>
+
+</body>
+</html>
